@@ -50,6 +50,7 @@ int main()
     cout << "Сума розрядів числа A = " << decision3A << endl;
     decision3B = equation3(int(decision2));
     cout << "Сума розрядів числа B = " << decision3B << endl;
+    cout << "Сума сум розрядів чисел A і B: " << decision3A + decision3B << endl;
     return 0;
     system("pause");
 }
