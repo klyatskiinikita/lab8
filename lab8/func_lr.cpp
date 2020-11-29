@@ -6,8 +6,6 @@
 
 using namespace std;
 
-//realization
-//12.1
 double equation1(double x, double y, double z)
 {
 	double result1;
@@ -35,10 +33,3 @@ int equation3(int a)
 	}
 	return result3;
 }
-
-//result1 = (-4) * z * (pow((sqrt(x + y) / pow(y, 2)), 1 / 3) - fabs(3 * y + 5 * pow(x, (-1)))) + exp(3);
-//pow((sqrt(x + y) / pow(y, 2)), 1 / 3)
-//fabs(3 * y + 5 * pow(x, (-1)))
-//fabs(3 * y + 5 / x)
-
-//result2 = (sqrt(pow(x, 2) + a - pow(y, 2) * pow(sin(x + z), 3) / x) + sin(M_PI / 180 * 27));

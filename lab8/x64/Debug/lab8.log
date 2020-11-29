@@ -1,0 +1,6 @@
+﻿  func_lr.cpp
+  lr8.cpp
+  Generating Code...
+F:\NIKITA\git\repositories\lab8\lab8\func_lr.cpp(26): warning C4715: 'equation2': not all control paths return a value
+F:\NIKITA\git\repositories\lab8\lab8\func_lr.cpp(17): warning C4715: 'equation1': not all control paths return a value
+  lab8.vcxproj -> F:\NIKITA\git\repositories\lab8\x64\Debug\lab8.exe
