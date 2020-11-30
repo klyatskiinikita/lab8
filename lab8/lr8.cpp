@@ -23,10 +23,6 @@ int main()
     {
         cout << "А = " << decision1 << " = " << int(decision1) << endl;
     }
-    else
-    {
-        cout << "Умова рівняння A не задовільняє ОДЗ" << endl;
-    }
     double Xb, Yb, Zb, Ab, decision2;
     cout << "Введіть x рівняння B: ";
     cin >> Xb;
@@ -41,16 +37,11 @@ int main()
     {
         cout << "B = " << decision2 << " = " << int(decision2) << endl;
     }
-    else
-    {
-        cout << "Умова рівняння B не задовільняє ОДЗ" << endl;
-    }
     int decision3A, decision3B;
     decision3A = equation3(int(decision1));
     cout << "Сума розрядів числа A = " << decision3A << endl;
     decision3B = equation3(int(decision2));
     cout << "Сума розрядів числа B = " << decision3B << endl;
-    cout << "Сума сум розрядів чисел A і B: " << decision3A + decision3B << endl;
     return 0;
     system("pause");
 }
