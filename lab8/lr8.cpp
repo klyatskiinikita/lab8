@@ -47,10 +47,14 @@ int main()
     }
     int decision3A, decision3B;
     decision3A = equation3(int(decision1));
-    cout << "Сума розрядів числа A = " << decision3A << endl;
+    if (decision1 >= 0 || decision1 < 0) {
+        cout << "Сума розрядів числа A = " << decision3A << endl;
+    }
     decision3B = equation3(int(decision2));
-    cout << "Сума розрядів числа B = " << decision3B << endl;
-    cout << "Сума сум розрядів чисел A і B: " << decision3A + decision3B << endl;
+    if (decision2 >= 0 || decision2 < 0) {
+        cout << "Сума розрядів числа B = " << decision3B << endl;
+    }
+
     return 0;
     system("pause");
 }
